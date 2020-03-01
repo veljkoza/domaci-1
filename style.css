@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  position: absolute;
+  width: 99%;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.our-services {
+  margin: 50px auto;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  font-family: Spartan;
+}
+
+.cards-section {
+  margin: 100px auto;
+  width: 69%;
+  display: grid;
+  text-align: center;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  grid-template-columns: 320px 320px 320px;
+  grid-template-rows: 400px 400px 400px;
+  font-family: Spartan;
+}
+
+.inside-card{
+  margin-top: 17%;
+  color: white;
+}
+
+#card-button{
+  margin: 15px auto;
+  color: white;
+  padding: 0.8em 2.4em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  font-weight: bold;
+  display: flex;
+  border: none;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: white 2px solid;
+}
+
+#card-button:hover{
+  background-color: white;
+  color: black;
+}
+
+.inside-card p {
+  margin: auto;
+  width: 66%;
+  font-size: 12px;
+}
+
+.card {
+  justify-self: center;
+  height: 400px;
+}
+
+.card-1 {
+  background-color: teal;
+}
+
+.card-2 {
+  background-color: teal;
+}
+
+.card-3 {
+  background-color: teal;
+}
+
+.card-3 .inside-card {
+  position: relative;
+  bottom: 10px;
+}
+
+.card-5 .inside-card{
+  position: relative;
+  top: 4%;
+}
+
+.card-4 {
+  background-color: teal;
+}
+
+.card-5 {
+  background-color: teal;
+}
+
+
+
+.card-6 {
+  background-color: teal;
+}
+
+.card-6 .inside-card{
+  position: relative;
+  bottom: 2%;
+}
+
+.our-services h5 {
+  color: #48017b;
+}
+
+.header h3 {
+  float: left;
+  margin-left: 20%;
+  font-family: Spartan;
+}
+
+#navButton {
+  padding: 0.8em 2.4em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  font-weight: bold;
+  display: flex;
+  border: none;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ff006d;
+  font-family: Spartan;
+  margin-top: -10px;
+}
+
+#navButton:hover {
+  color: white;
+  background-color: rgb(233, 1, 102);
+}
+
+.navBar {
+  margin-right: 13%;
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navBar ul li {
+  float: right;
+}
+
+.navBar ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: Spartan;
+  font-size: 12px;
+}
+
+.navBar ul li a:hover {
+  color: #ff006d;
+}
+
+#shape {
+  position: absolute;
+  height: 550px;
+  width: 900px;
+  top: -150px;
+  right: 0;
+  z-index: -1;
+}
+
+#hireButton {
+  padding: 0.8em 2.4em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  font-weight: bold;
+  display: flex;
+  border: none;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #00ffdb;
+  font-family: Spartan;
+}
+
+#hireButton:hover {
+  background-color: #05c9af;
+  color: white;
+}
+
+.section-1-content {
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Spartan;
+  color: #48017b;
+}
+
+.section-1-content div img {
+  float: right;
+  height: 250px;
+  width: 400px;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
