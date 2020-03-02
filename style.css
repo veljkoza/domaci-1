@@ -77,15 +77,17 @@ body {
 }
 
 .card-1 {
-  background-image: linear-gradient(rgb(243, 199, 77),rgb(151, 118, 9));
+  background-image: linear-gradient(rgb(231, 184, 56),rgb(155, 121, 11));
 }
 
 .card-2 {
-  background-color: teal;
+  background-image: linear-gradient(rgb(84, 185, 243),rgb(35, 109, 151));
+
 }
 
 .card-3 {
-  background-color: teal;
+  background-image: linear-gradient(rgb(152, 56, 231),rgb(86, 25, 136));
+
 }
 
 .card-3 .inside-card {
@@ -99,17 +101,21 @@ body {
 }
 
 .card-4 {
-  background-color: teal;
+  background-image: linear-gradient(rgb(47, 101, 201),rgb(32, 73, 151));
+
+  
 }
 
 .card-5 {
-  background-color: teal;
+  background-image: linear-gradient(rgb(196, 95, 243),rgb(149, 70, 185));
+
 }
 
 
 
 .card-6 {
-  background-color: teal;
+  background-image: linear-gradient(rgb(231, 83, 115),rgb(112, 48, 62));
+
 }
 
 .card-6 .inside-card{
