@@ -1,0 +1,35 @@
+[33mcommit d6b84d4b6aedfc785f9be94b629b7ff3fb255314[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: veljkoza <veljko.sekulic1998@gmail.com>
+Date:   Mon Mar 2 20:14:38 2020 +0100
+
+    Zapoceta 4. sekcija, dodat meni sa lijeve strane,treba jos malo da se doradi
+
+[33mcommit 246b93ff229d58e8703abcc2637d3f82bb39b716[m
+Author: veljkoza <veljko.sekulic1998@gmail.com>
+Date:   Mon Mar 2 19:46:03 2020 +0100
+
+    Dodata treca sekcija i dodata animacija na kartice
+
+[33mcommit bb2bd65ba40e5f44442807efa1793531523351a6[m
+Author: veljkoza <veljko.sekulic1998@gmail.com>
+Date:   Mon Mar 2 18:24:45 2020 +0100
+
+    Dodat gradient na svaku od kartica
+
+[33mcommit f68b32f176abf30f530177ab9861eaf4e9eb6da9[m
+Author: veljkoza <veljko.sekulic1998@gmail.com>
+Date:   Mon Mar 2 18:11:13 2020 +0100
+
+    Dodat gradient na prvu karticu u drugoj sekciji
+
+[33mcommit 4dd9ceb337d89b506524c92e9fefdf7ab345dd5f[m
+Author: veljkoza <veljko.sekulic1998@gmail.com>
+Date:   Sun Mar 1 20:09:01 2020 +0100
+
+    Odradjena prva sekcija, druga skoro zavrsena,dodat navbar, i malo jos karte da se dorade
+
+[33mcommit 68df7e9b9feede0c442ad594a7930b1637b98ca7[m
+Author: veljkoza <veljko.sekulic1998@gmail.com>
+Date:   Fri Feb 28 16:42:58 2020 +0100
+
+    Test commit
