@@ -20,6 +20,58 @@ body {
   margin-top: 2em;
 }
 
+.succes-container{
+  width: 100%;
+  display: flex;
+}
+
+.success-title{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Spartan;
+}
+
+.number-boxes-container{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.number-box{
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  padding: 4em;
+  height: 5em;
+  width: 5em;
+  box-shadow: gray 5px 5px 15px;
+}
+
+.inside-box{
+  align-items: center;
+  justify-content: center;
+  height: 6em;
+  width: 6em;
+  border: black 3px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.inside-box h2{
+  margin: 0 auto;
+}
+
+.inside-box p{
+  margin: 0 auto;
+  margin-top: 0.5em;
+
+}
+
+
+
 .portfolio-content{
   display: flex;
   width: 66%;
@@ -33,6 +85,7 @@ input[name="r"]{
 }
 
 .slide-show-buttons{
+  width: 31%;
   margin: 0 auto;
   margin-top: 7%;
   display: flex;
