@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
 
-body {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+body{
+  margin: 0 auto;
+  padding: 0;
 }
 
 .section {
@@ -13,11 +12,26 @@ body {
   padding-bottom: 5em;
 }
 
+
+
 .header {
   position: absolute;
   width: 99%;
   align-items: center;
   margin-top: 2em;
+}
+
+.section-6{
+  background-color:#0c0f32;
+}
+
+.review-title{
+  color: white;
+  text-align: center;
+}
+
+.review-title p{
+  color: rgba(194, 191, 191, 0.719);
 }
 
 .succes-container{
@@ -43,11 +57,13 @@ body {
 .number-box{
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 1em;
   padding: 4em;
   height: 5em;
   width: 5em;
-  box-shadow: gray 5px 5px 15px;
+  box-shadow: gray 5px 5px 5px;
+  border-radius: 5%;
 }
 
 .inside-box{
@@ -55,18 +71,36 @@ body {
   justify-content: center;
   height: 6em;
   width: 6em;
-  border: black 3px solid;
-  display: flex;
-  flex-direction: column;
+  border-radius: 20%;
+  font-family: Spartan;
+  position: relative;
+}
+
+.box-1{
+  background-image: linear-gradient(#ad92fd,#6853f3);
+}
+
+.box-2{
+  background-image: linear-gradient(#ff93a5,#ff64a3);
+}
+
+.box-3{
+  background-image: linear-gradient(#fbc7a1,#ff894b);
 }
 
 .inside-box h2{
   margin: 0 auto;
+  margin-top: 1.4em;
+  margin-bottom: 2.1em;
+  color: white;
 }
 
 .inside-box p{
-  margin: 0 auto;
-  margin-top: 0.5em;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0.7em;
+  margin-left: -0.5em;
 
 }
 
