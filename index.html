@@ -9,26 +9,39 @@
       href="https://fonts.googleapis.com/css?family=Spartan&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
     <title>Prvi Domaci Zadatak</title>
   </head>
   <body>
     <div class="header">
       <h3><span style="color: #48017b;">Web</span> UiExpert</h3>
 
-      <div class="navBar">
+      <div id="nav" class="navBar">
         <ul>
           <li>
-            <a href="#"><button id="navButton">Log in</button></a>
+            <button id="navButton">Log in</button>
           </li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Home</a></li>
+          <li>
+            <a href="javascript:void(0);" id="navMenuIcon" onclick="myFunction()"
+              ><img
+                src="https://img.icons8.com/material-rounded/24/000000/menu.png"
+            /></a>
+          </li>
         </ul>
       </div>
     </div>
@@ -73,7 +86,7 @@
               Fast, Powerful & Most Secure Network Solutions for Smart Home &
               Business
             </p>
-            <button id="card-button">Read More</button>
+            <button class="card-button">Read More</button>
           </div>
         </div>
 
@@ -85,7 +98,7 @@
               Fast, Powerful & Most Secure Network Solutions for Smart Home &
               Business
             </p>
-            <button id="card-button">Read More</button>
+            <button class="card-button">Read More</button>
           </div>
         </div>
 
@@ -97,7 +110,7 @@
               Fast, Powerful & Most Secure Network Solutions for Smart Home &
               Business
             </p>
-            <button id="card-button">Read More</button>
+            <button class="card-button">Read More</button>
           </div>
         </div>
 
@@ -109,7 +122,7 @@
               Fast, Powerful & Most Secure Network Solutions for Smart Home &
               Business
             </p>
-            <button id="card-button">Read More</button>
+            <button class="card-button">Read More</button>
           </div>
         </div>
 
@@ -121,7 +134,7 @@
               Fast, Powerful & Most Secure Network Solutions for Smart Home &
               Business
             </p>
-            <button id="card-button">Read More</button>
+            <button class="card-button">Read More</button>
           </div>
         </div>
 
@@ -133,7 +146,7 @@
               Fast, Powerful & Most Secure Network Solutions for Smart Home &
               Business
             </p>
-            <button id="card-button">Read More</button>
+            <button class="card-button">Read More</button>
           </div>
         </div>
       </div>
@@ -223,27 +236,27 @@
     <div class="section">
       <div class="success-container">
         <div class="success-title">
-          <h3>Our Success</h3>
-          <p>View our portfolio in categories</p>
+          <h2>Our Success</h2>
+          <h5>View our portfolio in categories</h5>
         </div>
         <div class="number-boxes-container">
           <div class="number-box">
             <div class="inside-box box-1">
               <h2>137</h2>
-              <p>Projects done</p>
+              <h5>Projects done</h5>
             </div>
           </div>
           <div class="number-box">
             <div class="inside-box box-2">
               <h2>47</h2>
-              <p>Happy clients</p>
+              <h5>Happy clients</h5>
             </div>
           </div>
 
           <div class="number-box">
             <div class="inside-box box-3">
               <h2>34</h2>
-              <p>Return clients</p>
+              <h5>Return clients</h5>
             </div>
           </div>
         </div>
@@ -252,9 +265,8 @@
     <div class="section section-6">
       <div class="review-title">
         <h2>What they say about us!</h2>
-        <p>Customer Review Sites for Collecting Business & Product Reviews</p>
+        <h5>Customer Review Sites for Collecting Business & Product Reviews</h5>
       </div>
-
     </div>
   </body>
 </html>
