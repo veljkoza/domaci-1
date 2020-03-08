@@ -48,6 +48,8 @@ html {
   text-align: center;
   vertical-align: middle;
   transition: step-end;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .key:hover {
@@ -679,6 +681,10 @@ input[name="r"] {
   .review-comments {
     margin: 0 auto;
     width: 70%;
+  }
+
+  #shape{
+    margin-top: -3em;
   }
 }
 
