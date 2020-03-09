@@ -30,6 +30,95 @@ html {
   z-index: 1;
 }
 
+.workflow-container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.workflow-image{
+  align-items: center;
+}
+
+.workflow-image img {
+  width: 90%;
+  margin-top: 3em;
+  height: auto;
+}
+
+.workflow-grid {
+  display: grid;
+  width: 100%;
+  column-gap: 3em;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.workflow-title h3 {
+  color: #5a5454;
+}
+
+.workflow-title h5 {
+  color: #747474;
+}
+
+.workflow-item {
+  display: flex;
+  align-items: center;
+}
+
+.workflow-item div {
+  color: #747474;
+}
+
+.workflow-item div h4 {
+  margin-bottom: -1em;
+  color: #5a5454;
+}
+
+.workflow-item h3 {
+  margin-right: 2em;
+  border-radius: 50%;
+  color: white;
+  padding: 1.5em;
+}
+
+.item-1 {
+  background-color: #3d37f1;
+}
+
+.item-2 {
+  background-color: #9997df;
+}
+
+.item-3 {
+  background-color: #ffba3f;
+}
+
+.item-4 {
+  background-color: #e66e6e;
+}
+
+.item-5 {
+  background-color: #66659f;
+}
+
+.item-6 {
+  background-color: #f17637;
+}
+
+.item-7 {
+  background-color: #37f1be;
+}
+
+.item-8 {
+  background-color: #f137e5;
+}
+
+.item-9 {
+  background-color: #f13d37;
+}
+
 .key-feature {
   width: 70%;
   display: flex;
@@ -683,7 +772,36 @@ input[name="r"] {
     width: 70%;
   }
 
-  #shape{
+  .workflow-container{
+    width: 100%;
+  }
+
+  .workflow-title{
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .workflow-grid{
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .workflow-item{
+    text-align: left;
+  }
+  
+
+  .workflow-item h3{
+    padding: 1em;
+    margin-right: 1em;
+  }
+
+  .workflow-image{
+    display: none;
+  }
+
+  #shape {
     margin-top: -3em;
   }
 }
