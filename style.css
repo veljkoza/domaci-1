@@ -30,6 +30,78 @@ html {
   z-index: 1;
 }
 
+.blog-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.blog-header{
+  text-align: center;
+}
+
+.blog-header h2{
+  color: #5a5454;
+}
+
+.blog-header p{
+  color: #747474;
+  font-size: smaller;
+  margin: 0 auto;
+  width: 33%;
+}
+
+.blog-cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  height: 20em;
+}
+
+.blg-card{
+  margin-top: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 100%;
+  width: 23%;
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.075);
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+}
+
+.blg-card img{
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.inside{
+  display: flex;
+  flex-wrap: wrap;
+  height: 35%;
+  width: 80%;
+  margin: 0 auto;
+  color: #635f5f;
+}
+
+.inside h5{
+  margin-bottom: -1em;
+  margin-top: 4em;
+}
+
+.inside i{
+  color:#3f38f0;
+}
+
+
+
+
+
+
+
 .workflow-container {
   width: 80%;
   display: flex;
@@ -751,7 +823,7 @@ input[name="r"] {
 
   .title-and-menu {
     text-align: center;
-    width: 50%;
+    width: 55%;
   }
 
   .slide-show-buttons label {
